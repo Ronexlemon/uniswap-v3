@@ -4,6 +4,8 @@ pragma abicoder v2;
 
 import "v3-periphery/libraries/TransferHelper.sol";
 import "v3-periphery/interfaces/ISwapRouter.sol";
+import "v3-core/contracts/interfaces/callback/IUniswapV3FlashCallback.sol";
+import "v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol";
 
 
 
